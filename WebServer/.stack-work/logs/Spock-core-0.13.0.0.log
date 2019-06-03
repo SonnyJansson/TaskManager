@@ -1,0 +1,37 @@
+Configuring Spock-core-0.13.0.0...
+Preprocessing library for Spock-core-0.13.0.0..
+Building library for Spock-core-0.13.0.0..
+[1 of 8] Compiling Web.Spock.Internal.Cookies ( src/Web/Spock/Internal/Cookies.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Internal/Cookies.o )
+[2 of 8] Compiling Web.Spock.Internal.Util ( src/Web/Spock/Internal/Util.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Internal/Util.o )
+[3 of 8] Compiling Web.Spock.Internal.Wire ( src/Web/Spock/Internal/Wire.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Internal/Wire.o )
+
+[;1msrc/Web/Spock/Internal/Wire.hs:376:31: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m376 |[0m[0m            do let parseBody = [;1m[35mWai.requestBody[0m[0m req
+[;1m[34m    |[0m[0m[;1m[35m                               ^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Web/Spock/Internal/Wire.hs:548:21: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m548 |[0m[0m                   { [;1m[35mWai.requestBody[0m[0m =
+[;1m[34m    |[0m[0m[;1m[35m                     ^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Web/Spock/Internal/Wire.hs:549:34: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m549 |[0m[0m                         do bs <- [;1m[35mWai.requestBody[0m[0m req
+[;1m[34m    |[0m[0m[;1m[35m                                  ^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[4 of 8] Compiling Web.Spock.Internal.CoreAction ( src/Web/Spock/Internal/CoreAction.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Internal/CoreAction.o )
+[5 of 8] Compiling Web.Spock.Internal.Config ( src/Web/Spock/Internal/Config.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Internal/Config.o )
+[6 of 8] Compiling Web.Spock.Action ( src/Web/Spock/Action.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Action.o )
+[7 of 8] Compiling Web.Spock.Routing ( src/Web/Spock/Routing.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Routing.o )
+[8 of 8] Compiling Web.Spock.Core   ( src/Web/Spock/Core.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Core.o )
+Installing library in /home/sonny/Documents/Programming/Websites/TaskTestWebServer/.stack-work/install/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/Spock-core-0.13.0.0-5KSucHEZQtC2C31qdYBRiV
+Registering library for Spock-core-0.13.0.0..

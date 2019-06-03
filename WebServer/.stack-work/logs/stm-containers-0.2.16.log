@@ -1,0 +1,32 @@
+Configuring stm-containers-0.2.16...
+Preprocessing library for stm-containers-0.2.16..
+Building library for stm-containers-0.2.16..
+[ 1 of 11] Compiling STMContainers.Prelude ( library/STMContainers/Prelude.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/Prelude.o )
+[ 2 of 11] Compiling STMContainers.HAMT.Level ( library/STMContainers/HAMT/Level.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/HAMT/Level.o )
+
+[;1mlibrary/STMContainers/HAMT/Level.hs:25:9: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘bitSize’
+    (imported from STMContainers.Prelude, but defined in Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m25 |[0m[0m limit = [;1m[35mbitSize[0m[0m (undefined :: Int)
+[;1m[34m   |[0m[0m[;1m[35m         ^^^^^^^[0m[0m
+[0m[0m[0m[ 3 of 11] Compiling STMContainers.SizedArray ( library/STMContainers/SizedArray.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/SizedArray.o )
+[ 4 of 11] Compiling STMContainers.WordArray.Indices ( library/STMContainers/WordArray/Indices.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/WordArray/Indices.o )
+
+[;1mlibrary/STMContainers/WordArray/Indices.hs:47:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘bitSize’
+    (imported from STMContainers.Prelude, but defined in Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m47 |[0m[0m maxSize = [;1m[35mbitSize[0m[0m (undefined :: Indices)
+[;1m[34m   |[0m[0m[;1m[35m           ^^^^^^^[0m[0m
+[0m[0m[0m[ 5 of 11] Compiling STMContainers.WordArray ( library/STMContainers/WordArray.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/WordArray.o )
+[ 6 of 11] Compiling STMContainers.HAMT.Nodes ( library/STMContainers/HAMT/Nodes.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/HAMT/Nodes.o )
+[ 7 of 11] Compiling STMContainers.HAMT ( library/STMContainers/HAMT.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/HAMT.o )
+[ 8 of 11] Compiling STMContainers.Set ( library/STMContainers/Set.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/Set.o )
+[ 9 of 11] Compiling STMContainers.Map ( library/STMContainers/Map.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/Map.o )
+[10 of 11] Compiling STMContainers.Multimap ( library/STMContainers/Multimap.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/Multimap.o )
+[11 of 11] Compiling STMContainers.Bimap ( library/STMContainers/Bimap.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/STMContainers/Bimap.o )
+Installing library in /home/sonny/Documents/Programming/Websites/TaskTestWebServer/.stack-work/install/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/stm-containers-0.2.16-7YtkWzu4eOGF9yQKerLkD
+Registering library for stm-containers-0.2.16..

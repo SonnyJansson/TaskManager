@@ -1,0 +1,8 @@
+Configuring superbuffer-0.3.1.1...
+Preprocessing library for superbuffer-0.3.1.1..
+Building library for superbuffer-0.3.1.1..
+[1 of 3] Compiling Data.ByteString.SuperBuffer ( src/Data/ByteString/SuperBuffer.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Data/ByteString/SuperBuffer.o )
+[2 of 3] Compiling Data.ByteString.SuperBuffer.Pure ( src/Data/ByteString/SuperBuffer/Pure.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Data/ByteString/SuperBuffer/Pure.o )
+[3 of 3] Compiling Paths_superbuffer ( .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/autogen/Paths_superbuffer.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Paths_superbuffer.o )
+Installing library in /home/sonny/.stack/snapshots/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/superbuffer-0.3.1.1-CFrgugkBR4kDkIJ54BUlQV
+Registering library for superbuffer-0.3.1.1..

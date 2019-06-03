@@ -1,0 +1,6 @@
+Configuring Spock-lucid-0.4.0.1...
+Preprocessing library for Spock-lucid-0.4.0.1..
+Building library for Spock-lucid-0.4.0.1..
+[1 of 1] Compiling Web.Spock.Lucid  ( lib/Web/Spock/Lucid.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Spock/Lucid.o )
+Installing library in /home/sonny/Documents/Programming/Websites/TaskTestWebServer/.stack-work/install/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/Spock-lucid-0.4.0.1-51G3rpmSerDvZOu1rN9OX
+Registering library for Spock-lucid-0.4.0.1..
