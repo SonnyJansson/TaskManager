@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="mycss.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <nav id="sidebar">
+                <div class="sidebar-header"> 
+                    <h3>Bootstrap Sidebar</h3>
+                </div>
+
+                <div class="list-group"> <!-- MAKE THESE BUTTONS CHANGE THE DIV WITH ID content USING JAVASCRIPT -->
+                    <a href="#" class="menuItem list-group-item rounded-0">Very cool</a>
+                    <a href="#" class="menuItem list-group-item rounded-0">Also pretty cool</a>
+                </div>
+            </nav>
+
+            <div id="content" style="width: 100%">
+                <div class="container-fluid">
+                    <div class="row">
+                        <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                    <i class="fas fa-align-left"></i>
+                                    <span>Toggle Sidebar</span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <h1>
+                                    <span class="goalCounter badge badge-primary m-1" style="float: right;" id="goalCountOverall">0/2</span>
+                                    Project Thingy
+                                </h1>
+                            </div>
+                            
+                            <hr class="goalSeparator">
+
+                            <div class="list-group projectGoalList" id="listOverall">
+                                <div class="list-group-item border-0 projectGoal">
+                                    <div class="checkboxDiv custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="goalCheck1">
+                                        <label class="checkboxLabel custom-control-label" for="goalCheck1">Maybe this piece of shit will work now</label>
+
+                                        <div class="float-right">
+                                            <i class="fas fa-chevron-down goalExpand mr-2" onclick="toggleExpand('1')" id="expand1"></i>
+                                            <i class="fas fa-flag goalFlag" onclick="toggleImportant('1')" id="flag1"></i>
+                                        </div>
+
+                                        <div id="attributes1"> 
+                                            <span class="goalCounter badge badge-primary" id="goalCount1">0/2</span>
+
+                                            <div class="badge badge-pill badge-warning important" id="important1">Important!</div>
+
+                                            <div class="badge badge-pill badge-danger" id="date1">25.5.2019 16:00</div>
+                                        </div>
+                                    </div>
+
+                                    <hr class="goalSeparator active" id="subGoalSeparator1">
+
+                                    <div class="list-group goalList active" id="subList1">
+                                        <div class="list-group-item border-0 projectGoal">
+                                            <div class="checkboxDiv custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="goalCheck1_1">
+                                                <label class="checkboxLabel custom-control-label" for="goalCheck1_1">Maybe this piece of shit will work now</label>
+    
+                                                <div class="float-right">
+                                                    <i class="fas fa-chevron-down goalExpand mr-2" onclick="toggleExpand('1_1')" id="expand1_1"></i>
+                                                    <i class="fas fa-flag goalFlag" onclick="toggleImportant('1_1')" id="flag1_1"></i>
+                                                </div>
+
+                                                <div id="attributes1.1"> 
+                                                    <span class="goalCounter badge badge-primary" id="goalCount1_1">0/2</span>
+
+                                                    <div class="badge badge-pill badge-warning important" id="important1_1">Important!</div>
+
+                                                    <div class="badge badge-pill badge-danger" id="date1_1">25.5.2019 16:00</div>
+                                                </div>
+                                            </div>
+
+                                            <hr class="goalSeparator active">
+
+                                            <div class="list-group goalList active" id="subList1_1">
+                                                <div class="list-group-item border-0 projectGoal">
+                                                    <div class="checkboxDiv custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="goalCheck1_1_1">
+                                                        <label class="checkboxLabel custom-control-label" for="goalCheck1_1_1">Maybe this piece of shit will work now</label>
+
+                                                        <i class="float-right fas fa-flag goalFlag" onclick="toggleImportant('1_1_1')" id="flag1_1_1"></i>
+                                                        <div id="attributes1.1.1"> 
+                                                            <div class="badge badge-pill badge-warning important" id="important1_1_1">Important!</div>
+
+                                                            <div class="badge badge-pill badge-danger" id="date1_1_1">25.5.2019 16:00</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <hr class="goalSeparator active">
+                                                </div>
+                                                    <div class="list-group-item border-0 projectGoal">
+                                                        <div class="checkboxDiv custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="goalCheck1_1_2">
+                                                            <label class="checkboxLabel custom-control-label" for="goalCheck1_1_2">Maybe this piece of shit will work now</label>
+
+                                                            <i class="float-right fas fa-flag goalFlag" onclick="toggleImportant('1_1_2')" id="flag1_1_2"></i>
+                                                            <div id="attributes1_1_2"> 
+                                                                <div class="badge badge-pill badge-warning important" id="important1_1_2">Important!</div>
+
+                                                                <div class="badge badge-pill badge-danger" id="date1_1_2">25.5.2019 16:00</div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <hr class="goalSeparator active" id="subGoalSeparator1_1">
+                                            </div>
+                                        </div>
+
+                                        <div class="list-group-item border-0 projectGoal">
+                                            <div class="checkboxDiv custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="goalCheck1_2">
+                                                <label class="checkboxLabel custom-control-label" for="goalCheck1_2">Maybe this piece of shit will work now</label>
+
+                                                <i class="float-right fas fa-flag goalFlag" onclick="toggleImportant('1_2')" id="flag1_2"></i>
+                                                <div id="attributes1_2"> 
+                                                    <div class="badge badge-pill badge-warning important" id="important1_2">Important!</div>
+
+                                                    <div class="badge badge-pill badge-danger" id="date1_2">25.5.2019 16:00</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <hr class="goalSeparator active">
+
+                                <div class="list-group-item border-0 projectGoal">
+                                    <div class="checkboxDiv custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="goalCheck2">
+                                        <label class="checkboxLabel custom-control-label" for="goalCheck2">Maybe this piece of shit will work now</label>
+
+                                        <div class="float-right">
+                                            <i class="fas fa-chevron-down goalExpand mr-2" onclick="toggleExpand('2')" id="expand2"></i>
+                                            <i class="fas fa-flag goalFlag" onclick="toggleImportant('2')" id="flag2"></i>
+                                        </div>
+
+                                        <div id="attributes2"> 
+                                            <span class="goalCounter badge badge-primary" id="goalCount2">0/2</span>
+
+                                            <div class="badge badge-pill badge-warning important" id="important2">Important!</div>
+
+                                            <div class="badge badge-pill badge-danger" id="date2">25.5.2019 16:00</div>
+                                        </div>
+                                    </div>
+
+                                    <hr class="goalSeparator active" id="subGoalSeparator2">
+
+                                    <div class="goalList list-group active" id="subList2">
+                                        <div class="list-group-item border-0 projectGoal">
+                                            <div class="checkboxDiv custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="goalCheck2_1">
+                                                <label class="checkboxLabel custom-control-label" for="goalCheck2_1">Maybe this piece of shit will work now</label>
+                                                <span class="goalCounter badge badge-primary" id="goalCount2_1">0/2</span>
+                                            </div>
+
+                                            <hr class="goalSeparator active">
+
+                                            <div class="list-group">
+                                                <div class="list-group-item border-0 projectGoal">
+                                                    <div class="checkboxDiv custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="goalCheck2_1_1">
+                                                        <label class="checkboxLabel custom-control-label" for="goalCheck2_1_1">Maybe this piece of shit will work now</label>
+                                                    </div>
+
+                                                    <hr class="goalSeparator active">
+                                                </div>
+
+
+                                                <div class="list-group-item border-0 projectGoal">
+                                                    <div class="checkboxDiv custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="goalCheck2_1_2">
+                                                        <label class="checkboxLabel custom-control-label" for="goalCheck2_1_2">Maybe this piece of shit will work now</label>
+                                                    </div>
+
+                                                    <hr class="goalSeparator active">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-group-item border-0 projectGoal">
+                                            <div class="checkboxDiv custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="goalCheck2_2">
+                                                <label class="checkboxLabel custom-control-label" for="goalCheck22">Maybe this piece of shit will work now</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $('.overlay').toggleClass('active');
+                });
+
+                $('.overlay').on('click', function () {
+                    $('#sidebar').removeClass('active');
+                    $('.overlay').removeClass('active');
+                });
+
+                console.log("HELLO!");
+
+                var goal = new Goal("Yumyum");
+                console.log(goal);
+                console.log(goal.getSubAmount());
+            });
+
+            function toggleImportant(s) {
+                var importantId = '#' + "important" + s; 
+                var flagId = '#' + "flag" + s;
+                $(importantId).toggleClass('active');
+                $(flagId).toggleClass('active');
+                console.log(importantId);
+            }
+
+            function toggleExpand(s) {
+                var subListId = '#' + "subList" + s;
+                var expandId = '#' + "expand" + s;
+                var separatorId = '#' + "subGoalSeparator" + s;
+                $(subListId).toggleClass('active');
+                $(expandId).toggleClass('fa-chevron-down');
+                $(expandId).toggleClass('fa-chevron-left');
+                $(separatorId).toggleClass('active');
+                console.log(subListId); // Toggle the down arrow class and the side arrow class so that they alternate
+                // Also label the separating line between a goal and its subgoals so that it can have its active tag toggled
+
+            }
+
+            // Possibly add a function that allows you to set all the toggles in sync
+
+            // Maybe store the expand state for all the goals so that big projects are not cluttered every time you open them and so you can keep focusing on the goal that is expanded
+
+            class Goal {
+                constructor(value) {
+                    this.value = value;
+                    this.children = new Array();
+                }
+
+                getSubAmount() {
+                    return this.children.length; 
+                }
+
+                insertSub(subGoal) {
+                    this.children.push(subGoal);
+                } 
+
+                toHTML() {
+                }
+            }
+        </script>
+    </body>
+</html>
