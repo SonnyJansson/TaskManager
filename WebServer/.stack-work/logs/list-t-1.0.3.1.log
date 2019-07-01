@@ -1,7 +1,0 @@
-Configuring list-t-1.0.3.1...
-Preprocessing library for list-t-1.0.3.1..
-Building library for list-t-1.0.3.1..
-[1 of 2] Compiling ListT.Prelude    ( library/ListT/Prelude.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/ListT/Prelude.o )
-[2 of 2] Compiling ListT            ( library/ListT.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/ListT.o )
-Installing library in /home/sonny/.stack/snapshots/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/list-t-1.0.3.1-EHLk9VBLQrA8kKEShLqOcV
-Registering library for list-t-1.0.3.1..

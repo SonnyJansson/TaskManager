@@ -1,6 +1,0 @@
-Configuring hvect-0.4.0.0...
-Preprocessing library for hvect-0.4.0.0..
-Building library for hvect-0.4.0.0..
-[1 of 1] Compiling Data.HVect       ( src/Data/HVect.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Data/HVect.o )
-Installing library in /home/sonny/.stack/snapshots/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/hvect-0.4.0.0-3dqGVvEpS5LFQ3h18xF99P
-Registering library for hvect-0.4.0.0..

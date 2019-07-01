@@ -1,9 +1,0 @@
-Configuring reroute-0.5.0.0...
-Preprocessing library for reroute-0.5.0.0..
-Building library for reroute-0.5.0.0..
-[1 of 4] Compiling Data.PolyMap     ( src/Data/PolyMap.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Data/PolyMap.o )
-[2 of 4] Compiling Web.Routing.SafeRouting ( src/Web/Routing/SafeRouting.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Routing/SafeRouting.o )
-[3 of 4] Compiling Web.Routing.Router ( src/Web/Routing/Router.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Routing/Router.o )
-[4 of 4] Compiling Web.Routing.Combinators ( src/Web/Routing/Combinators.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/Web/Routing/Combinators.o )
-Installing library in /home/sonny/Documents/Programming/Websites/TaskTestWebServer/.stack-work/install/x86_64-linux-tinfo6/lts-13.19/8.6.4/lib/x86_64-linux-ghc-8.6.4/reroute-0.5.0.0-5olBjwuH03f8ax3UFCmflb
-Registering library for reroute-0.5.0.0..

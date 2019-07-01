@@ -24,3 +24,9 @@ executable TaskTestWebServer
                ,       mtl
                ,       lucid
                ,       Spock-lucid
+               ,       wai-middleware-static
+               ,       hvect
+               ,       dynamodb-simple
+               ,       amazonka
+               ,       amazonka-dynamodb
+               ,       lens
