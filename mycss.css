@@ -66,6 +66,16 @@
     margin-right: 10px;
 }
 
+.card-body {
+    max-height: 200px;
+}
+
+.card-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .overlay { /* Overlay class, no display and 0 opacity by default */
     display: none;
     position: fixed;

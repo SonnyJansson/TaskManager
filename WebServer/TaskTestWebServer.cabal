@@ -30,3 +30,8 @@ executable TaskTestWebServer
                ,       amazonka
                ,       amazonka-dynamodb
                ,       lens
+               ,       aeson
+               ,       bytestring
+               ,       pandoc
+               ,       directory
+               ,       uuid

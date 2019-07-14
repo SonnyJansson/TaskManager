@@ -6,6 +6,15 @@
     height: 100%;
 }
 
+#content {
+    margin-left: 0px;
+    transition: all 0.15s ease-in-out;
+}
+
+#content.moved {
+    margin-left: 250px;
+}
+
 #sidebar {
     min-width: 250px;
     max-width: 250px; height: 100vh;
@@ -16,6 +25,7 @@
     background: #2c3e50;
     padding: 0px;
     box-shadow: inset -8px 0 10px -6px rgba(0, 0, 0, 0.6);
+    transition: all 0.15s ease-in-out;
 }
 
 #sidebar.active {
@@ -54,6 +64,13 @@
     width: 100%;
 }
 
+.homePageButton:hover {
+    transition: all .15s ease-in-out;
+    transform: scale(1.005);
+    transform-origin: 0% 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
 .search { /* ALLOW FOR TAGS, GOALS AND SUB-GOALS TO BE SEARCHED FOR */
     margin-top: 10px;    
 }
@@ -64,6 +81,16 @@
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.card-body {
+}
+
+.card-text {
+    /*text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;*/
+    max-height: 100px;
 }
 
 .overlay { /* Overlay class, no display and 0 opacity by default */
@@ -94,8 +121,7 @@
     margin-bottom: 5px;
 }
 
-.goalCounter {
-    margin-left: 3px;
+.goalCounter {margin-left: 3px;
 }
 
 .projectGoal {
@@ -124,6 +150,7 @@
     display: block;
 }
 
+
 .important {
     display: none;
 }
@@ -131,6 +158,7 @@
 .important.active {
     display: inline;
 }
+
 
 .goalFlag {
     cursor: pointer;
@@ -145,6 +173,7 @@
     color: #2c3e50;
 }
 
+
 .goalExpand {
     cursor: pointer;
     color: #95a5a6;
@@ -154,6 +183,43 @@
     color: #2c3e50;
 }
 
+
+.goalAdd {
+    cursor: pointer;
+    color: #95a5a6;
+}
+
+.goalAdd:hover {
+    color: #2c3e50;
+}
+
+.goalAdd.active {
+    color: #2c3e50;
+}
+
+
+.noteOutline {
+    color: #95a5a6;
+}
+
+#noteNavName {
+    color: #95a5a6;
+}
+
+.notesMenuCol {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.notesMenu {
+    border-right: 1px solid #7f8c8d;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+#noteView {
+    font-family: Lato, sans-serif;
+}
+
 .goalList {
     display: none;
 }
@@ -161,6 +227,21 @@
 .goalList.active {
     display: block;
 }
+
+
+.navbarButtonGreen {
+    cursor: pointer;
+    color: #2ecc71;
+}
+
+.navbarButtonGreen:hover {
+    color: #27ae60;
+}
+
+#sidebarCollapse {
+    border: 0;
+}
+
 
 @media (max-width: 786px) {
     #sidebar {
@@ -183,5 +264,28 @@
 
     #sidebarCollapse {
         display: none;
+    }
+
+}
+
+@media (min-width: 576px) {
+    #noteNav {
+        display: none;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 576px) {
+    .notesMenuCol {
+        z-index: 1;
+    }
+
+    .noteViewCol {
+        position: absolute;
+    }
+
+    .notesMenuCol.hidden {
+        display: none;
+        z-index: -1;
     }
 }

@@ -1,0 +1,10 @@
+* Why hello there, fine Sir
+
+Yum, have I ever told you how much I love strawberries? Let me do so using a table!
+
+| Strawberryness | Me-likeyness |
+|----------------+--------------|
+| Not very       | :/           |
+| A lot          | :D           |
+
+<h1>So, that's pretty cool, ay?</h1>
